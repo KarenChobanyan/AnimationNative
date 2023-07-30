@@ -132,7 +132,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderBottomColor: "#3BB7FE",
         borderBottomWidth: 1,
-        marginTop: 20
     },
     title: {
         fontSize: 25,
@@ -143,7 +142,6 @@ const styles = StyleSheet.create({
         marginTop: 20,
         width: 250,
         height: 250,
-        // justifyContent:"center",
         alignItems: "center",
         position: "relative",
     },

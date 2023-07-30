@@ -68,7 +68,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderBottomColor: "#3BB7FE",
         borderBottomWidth: 1,
-        marginTop: 20
     },
     title: {
         fontSize: 25,
@@ -80,7 +79,6 @@ const styles = StyleSheet.create({
         height: 260,
         justifyContent: "center",
         alignItems: "center",
-        
     },
     boxTitle: {
         fontSize: 15,

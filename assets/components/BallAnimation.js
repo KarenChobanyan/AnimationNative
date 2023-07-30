@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { Animated, StyleSheet, Text, View } from "react-native";
-
 export default function BallAnimation() {
     const firstBallTypeStandAnim = useRef(new Animated.Value(0)).current;
     const firstBallTypeFadeAnim = useRef(new Animated.Value(0)).current;
@@ -164,7 +163,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderBottomColor: "#3BB7FE",
         borderBottomWidth: 1,
-        marginTop: 20
     },
     title: {
         fontSize: 25,
@@ -175,7 +173,7 @@ const styles = StyleSheet.create({
         width: 250,
         height: 260,
         flexDirection: "row",
-        justifyContent:"center", 
+        justifyContent: "center",
     },
     ball: {
         width: 25,
